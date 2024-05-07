@@ -1,2 +1,2 @@
-# Volcano-WebApp-ReactJs
-Volcano WebApp ReactJs
+# Volcano-WebApp-React
+Volcano WebApp React
