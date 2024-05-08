@@ -1,0 +1,40 @@
+/* HomePage.css */
+.hero-image {
+    background-image: url('../assets/background.webp') ; 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    color: white;
+    
+  }
+  
+
+
+
+
+
+
+
+
+  .hero-content {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 60vh;
+    
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
