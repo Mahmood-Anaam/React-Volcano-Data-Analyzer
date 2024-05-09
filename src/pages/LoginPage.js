@@ -14,7 +14,8 @@ const LoginPage = () => {
   };
 
   return (
-    <Container className="login-container">
+    <div style={{minHeight:'85vh',width:'70%',margin:'auto'}}>
+    <Container className="login-container mt-3">
       <Row>
         <Col md={{ size: 6, offset: 3 }}>
           <h2 className="text-center">Login</h2>
@@ -46,6 +47,7 @@ const LoginPage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

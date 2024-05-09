@@ -23,6 +23,11 @@ const NavigationBar = () => {
           <NavItem>
             <NavLink tag={Link} to="/register">Register</NavLink>
           </NavItem>
+
+          <NavItem>
+            <NavLink tag={Link} to="/volcano-list/volcano/128">Volcano</NavLink>
+          </NavItem>
+
           <NavItem>
             <NavLink tag={Link} to="/login">Login</NavLink>
           </NavItem>

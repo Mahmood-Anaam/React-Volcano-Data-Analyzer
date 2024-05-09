@@ -5,7 +5,8 @@ import '../styles/AboutUsPage.css';
 
 const AboutUsPage = () => {
   return (
-    <Container className="about-us-container mt-5">
+    <div style={{height:'83vh',width:'80%',margin:'auto'}}>
+    <Container className="about-us-container mt-3">
       <Row>
         <Col md="12">
           <h2 className="text-center">About Volcano App</h2>
@@ -31,6 +32,7 @@ const AboutUsPage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 

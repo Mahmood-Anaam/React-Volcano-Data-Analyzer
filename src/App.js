@@ -7,19 +7,21 @@ import VolcanoListPage from './pages/VolcanoListPage';
 import RegisterPage from './pages/RegisterPage';
 import LoginPage from './pages/LoginPage';
 import AboutUsPage from './pages/AboutUsPage';
+import VolcanoPage from './pages/VolcanoPage';
 import Footer from './components/Footer';
 import './styles/App.css';
 
 const App = () => {
   return (
     <Router>
-       <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', overflow: 'hidden'}}>
+       <div style={{ height: '100vh', display: 'flex', flexDirection: 'column'}}>
     
-       <div style={{flex:1, overflow: 'hidden' }}>
+       <div style={{flex:1}}>
        <NavigationBar />
         <Routes>
           <Route path="/"   element={<HomePage />} />
           <Route path="/volcano-list" element={<VolcanoListPage/>} />
+          <Route path="/volcano-list/volcano/128" element={<VolcanoPage/>} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/about-us" element={<AboutUsPage />} />

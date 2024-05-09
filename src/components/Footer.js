@@ -1,13 +1,14 @@
 // Footer.js
 import React from 'react';
-import { Container, Row, Col } from 'reactstrap';
-import { FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
+import { Container } from 'reactstrap';
+// import { FaFacebook, FaTwitter, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-dark text-white py-2 mt-auto"> {/* تقليل الحشو إلى py-2 */}
+    <footer className="bg-dark text-white py-1 mt-auto" > {/* تقليل الحشو إلى py-2 */}
+    
       <Container>
-        <Row>
+        {/* <Row>
           <Col md="4">
             <h5 style={{ color: "#FFD700" }}>About Us</h5>
             <p>
@@ -36,8 +37,8 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
-        <hr />
-        <p className="text-center">&copy; 2024 Volcano App. All rights reserved.</p>
+        <hr /> */}
+        <p className="text-center" >&copy; 2024 Volcano App. All rights reserved.</p>
       </Container>
     </footer>
   );

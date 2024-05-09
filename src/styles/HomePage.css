@@ -1,15 +1,19 @@
 /* HomePage.css */
+
+
 .hero-image {
     background-image: url('../assets/background.webp') ; 
     background-size: cover;
     background-position: center;
+    background-repeat: repeat;
     display: flex;
-    height: 60vh;
     flex-direction: column;
     justify-content:center;
     align-items:center;
     text-align: center;
     color: white;
+    height: 100%;
+    
     
   }
   

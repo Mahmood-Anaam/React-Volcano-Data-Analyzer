@@ -21,8 +21,9 @@ const RegisterPage = () => {
   };
 
   return (
-    <Container className="register-container">
-      <Row>
+    <div style={{minHeight:'85vh',width:'70%',margin:'auto'}}>
+    <Container className="register-container mt-3">
+      <Row >
         <Col md={{ size: 6, offset: 3 }}>
           <h2 className="text-center">Create Account</h2>
           <Form onSubmit={handleRegister}>
@@ -64,6 +65,7 @@ const RegisterPage = () => {
         </Col>
       </Row>
     </Container>
+    </div>
   );
 };
 
