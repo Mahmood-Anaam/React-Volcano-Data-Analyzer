@@ -57,6 +57,11 @@ const LoginPage = () => {
 
         setEmail("");
         setPassword("");
+
+        setTimeout(() => {
+          navigate("/");
+          window.location.reload();
+        }, 2000);
       }
     } catch (error) {
       setErrorMessage(
@@ -68,10 +73,9 @@ const LoginPage = () => {
       setIsLoading(false);
     }
 
-    setTimeout(() => {
-      navigate("/");
-      window.location.reload();
-    }, 2000);
+
+
+
   };
 
   return (
