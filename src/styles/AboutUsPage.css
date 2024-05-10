@@ -1,16 +1,17 @@
 /* AboutUsPage.css */
 .about-us-container {
-    background-color: #f8f9fa;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2, h4 {
-    color: #333;
-  }
-  
-  p, li {
-    color: #555;
-  }
-  
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.about-us-container>h2,
+h4 {
+  color: #333;
+}
+
+.about-us-container>p,
+li {
+  color: #555;
+}

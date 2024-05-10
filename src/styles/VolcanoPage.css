@@ -3,10 +3,12 @@
 /* Volcano details container */
 .volcano-details {
 
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #f8f9fa;
+  /* Light gray background */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
- 
+
+
 }
 
 /* List of volcano details */

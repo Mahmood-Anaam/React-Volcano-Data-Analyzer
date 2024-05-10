@@ -4,13 +4,12 @@
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-  }
-  
-  button {
-    margin-top: 10px;
-  }
-  
+}
+
+.login-container>h2 {
+  margin-bottom: 20px;
+}
+
+.login-container>button {
+  margin-top: 10px;
+}
