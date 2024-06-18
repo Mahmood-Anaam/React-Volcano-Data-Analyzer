@@ -31,8 +31,8 @@ const AboutUsPage = () => {
           </Col>
           <Col md="6">
             <h4>Contact Us</h4>
-            <p>Email: support@volcanoapp.com</p>
-            <p>Phone: +123 456 7890</p>
+            <p>Email: eng.mahmood.anaam@gmail.com</p>
+            <p>Phone: +967 737 265 380</p>
           </Col>
         </Row>
       </Container>

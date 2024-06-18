@@ -32,7 +32,7 @@ const LoginPage = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("http://4.237.58.241:3000/user/login", {
+      const response = await fetch("https://volcanoes-restful-api.onrender.com/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
