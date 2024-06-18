@@ -1,70 +1,94 @@
+# Volcano WebApp
 
-# Getting Started with Create React App
+This is a React-based web application designed to allow users to view and analyze data about volcanoes using a REST API. This project was developed to gain experience in building sophisticated client web applications, querying REST APIs, and presenting the results on a web page using modern web technologies such as React.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Features
 
-## Available Scripts
+- Fetch and display data about volcanoes from a REST API.
+- User registration and login to access authenticated data.
+- Display a list of volcanoes for a selected country with optional population density filtering.
+- Detailed view of individual volcanoes with a map and population density visualization.
+- Responsive and user-friendly interface.
 
-In the project directory, you can run:
+## Application Structure
 
-### `npm start`
+### Home Page
 
-Runs the app in the development mode.  
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The home page welcomes users with a hero image and navigation options to explore the application.
 
-The page will reload when you make changes.  
-You may also see any lint errors in the console.
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/cd4d1fdb-8297-48c6-a62e-a7837ed66504)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.  
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### Volcano List Page
 
-Builds the app for production to the `build` folder.  
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This page allows users to select a country and optionally filter volcanoes by population density within specified radii. It uses a form for user input and displays results in a table. Users can click on a volcano to view detailed information.
 
-The build is minified and the filenames include the hashes.  
-Your app is ready to be deployed!
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/8e2cda43-f6ef-422a-91c4-253ccaf7b54e)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Individual Volcano Page
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Displays detailed information about a selected volcano, including its location on a map (using Pigeon Maps) and population density data (for authenticated users) visualized in a bar chart (using Chart.js).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/e7dc75b6-c59c-460a-aba1-bebed153105b)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Login and Register Pages
 
-## Learn More
+These pages provide forms for user registration and login. Upon successful login, users receive a token to access authenticated routes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/0544be75-3ca6-4153-8985-438cebb564a6)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/90ad5823-d3de-4074-aaeb-5ce52cfa6c5c)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### About Us Page
 
-### Analyzing the Bundle Size
+Provides information about the project and its developers.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image](https://github.com/Mahmood-Anaam/volcano-webapp/assets/115950016/1b20524a-3053-437d-b572-febb75528051)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Installation
 
-### Advanced Configuration
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/Mahmood-Anaam/volcano-webapp.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd volcano-webapp
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+4. Start the development server:
+    ```sh
+    npm start
+    ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Usage
 
-### Deployment
+1. Open the application in your browser:
+    ```
+    http://localhost:3000
+    ```
+2. Navigate through the application using the provided menu to explore volcano data.
+3. Register and log in to access additional features such as detailed population density data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Deployment
 
-### `npm run build` fails to minify
+The web application is deployed and accessible at:
+[https://volcano-webapp.onrender.com](https://volcano-webapp.onrender.com)
+
+## Dependencies
+
+The web application relies on the following REST API for data:
+[Volcanoes RESTful API](https://github.com/Mahmood-Anaam/volcanoes-restful-api.git)
+
+## Contribution
+
+If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Contributions are welcome and appreciated!
 
