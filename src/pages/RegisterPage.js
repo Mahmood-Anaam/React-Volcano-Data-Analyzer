@@ -39,7 +39,7 @@ const RegisterPage = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://volcanoes-restful-api.onrender.com/user/register", {
+      const response = await fetch("https://nodejs-express-volcanoes-restful-api.onrender.com/user/register", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

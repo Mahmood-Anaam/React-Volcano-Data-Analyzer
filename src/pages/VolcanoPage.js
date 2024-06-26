@@ -27,7 +27,7 @@ const VolcanoPage = () => {
 
       try {
         // Fetch the data from the API
-        const response = await fetch(`https://volcanoes-restful-api.onrender.com/volcano/${id}`, {
+        const response = await fetch(`https://nodejs-express-volcanoes-restful-api.onrender.com/volcano/${id}`, {
           method: "GET",
           headers: headers,
         });

@@ -32,7 +32,7 @@ const LoginPage = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch("https://volcanoes-restful-api.onrender.com/user/login", {
+      const response = await fetch("https://nodejs-express-volcanoes-restful-api.onrender.com/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),

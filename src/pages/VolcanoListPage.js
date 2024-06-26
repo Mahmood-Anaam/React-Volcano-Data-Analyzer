@@ -54,7 +54,7 @@ const VolcanoListPage = () => {
 
   // Fetch the list of countries once
   useEffect(() => {
-    fetch("https://volcanoes-restful-api.onrender.com/countries")
+    fetch("https://nodejs-express-volcanoes-restful-api.onrender.com/countries")
       .then((response) => response.json())
       .then((data) => setCountries(data))
       .catch((error) => console.error("Error fetching countries:", error));
@@ -62,7 +62,7 @@ const VolcanoListPage = () => {
 
   const handleSearch = () => {
     if (country) {
-      let apiUrl = `https://volcanoes-restful-api.onrender.com/volcanoes?country=${country.value}`;
+      let apiUrl = `https://nodejs-express-volcanoes-restful-api.onrender.com/volcanoes?country=${country.value}`;
       if (radius) {
         apiUrl += `&populatedWithin=${radius}`;
       }
