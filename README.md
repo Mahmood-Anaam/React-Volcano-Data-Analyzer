@@ -16,37 +16,33 @@ This is a React-based web application that allows users to view and analyze data
 
 The home page welcomes users with a hero image and navigation options to explore the application.
 
-
-
-
+![Home Page](screenshots/home-page.png)
 
 ### Volcano List Page
 
 This page allows users to select a country and optionally filter volcanoes by population density within specified radii. It uses a form for user input and displays results in a table. Users can click on a volcano to view detailed information.
 
-
-
+![Volcano List Page](screenshots/volcano-list-page.png)
 
 ### Individual Volcano Page
 
 Displays detailed information about a selected volcano, including its location on a map (using Pigeon Maps) and population density data (for authenticated users) visualized in a bar chart (using Chart.js).
 
-
-
+![Individual Volcano Page](screenshots/individual-volcano-page.png)
 
 ### Login and Register Pages
 
 These pages provide forms for user registration and login. Upon successful login, users receive a token to access authenticated routes.
 
+![Login Page](screenshots/login-page.png)
 
-
+![Register Page](screenshots/register-page.png)
 
 ### About Us Page
 
 Provides information about the project and its developers.
 
-
-
+![About Us Page](screenshots/about-us-page.png)
 
 ## Installation
 
@@ -56,7 +52,7 @@ Provides information about the project and its developers.
     ```
 2. Navigate to the project directory:
     ```sh
-    cd React-Volcano-Data-Analyzer.git
+    cd React-Volcano-Data-Analyzer
     ```
 3. Install dependencies:
     ```sh
@@ -79,14 +75,12 @@ Provides information about the project and its developers.
 ## Deployment
 
 The web application is deployed and accessible at:
-[https://volcano-webapp.onrender.com](https://volcano-webapp.onrender.com)
+[https://react-volcano-data-analyzer.onrender.com](https://react-volcano-data-analyzer.onrender.com)
 
 ## Dependencies
 
 This web application relies on a custom RESTful API for data, which can be found in the following GitHub repository:
 [NodeJS-Express-Volcanoes-Restful-AP](https://github.com/Mahmood-Anaam/NodeJS-Express-Volcanoes-Restful-API.git)
 
-## Contribution
 
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Contributions are welcome and appreciated!
 
